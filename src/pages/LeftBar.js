@@ -19,29 +19,23 @@ const LeftBar = (props) => {
 
   const WebList = () => (
     <div>
-      <a href="/">
-        <div className="ml-12 flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] w-60">
-          <CodeIcon className="h-5 w-5 mr-1  ml-5 text-yellow_vs" />
-          <p>Book Store</p>
-        </div>
-      </a>
-      <a href="/">
+      
+      <a href="https://bit.ly/covid_tracker_app">
         <div className="ml-12 flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] w-60">
           <CodeIcon className="h-5 w-5 mr-1  ml-5 text-yellow_vs" />
           <p>Covid 19 Tracker</p>
         </div>
       </a>
-      <a href="/">
+      <a href="https://bit.ly/food_recipe">
         <div className="flex whitespace-nowrap items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] focus:bg-slate-300 ml-12 w-60">
           <CodeIcon className="h-5 w-5 mr-1  ml-5 text-yellow_vs" />
           <p>Food Receipe App</p>
         </div>
       </a>
-      <a href="/">
-        <div className="flex whitespace-nowrap items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] ml-12 w-60">
-          
-          <CodeIcon className="h-5 w-5 ml-5 mr-1   text-yellow_vs" />
-          <p>Whatsapp Clone</p>
+      <a href="easy-google.vercel.app">
+        <div className="ml-12 flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] w-60">
+          <CodeIcon className="h-5 w-5 mr-1  ml-5 text-yellow_vs" />
+          <p>Google clone</p>
         </div>
       </a>
     </div>
