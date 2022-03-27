@@ -7,9 +7,9 @@ import {
 } from "@heroicons/react/solid";
 import { MailIcon, ClipboardListIcon } from "@heroicons/react/outline";
 
-const GitLogo = require("../assets/GitLogo.png");
+const fbb = require("../assets/fBB.png");
 const LinkedinLogo = require("../assets/LinkedinLogo.png");
-const KaggleLogo = require("../assets/KaggleLogo.png");
+const GitLogo = require("../assets/GitLogo.png");
 const MailLogo = require("../assets/MailLogo.png");
 
 const LeftBar = (props) => {
@@ -112,18 +112,18 @@ const LeftBar = (props) => {
         ) : null}
         <div className="absolute inset-x-0 bottom-10 ">
           <div className="flex px-6 space-x-7">
-            <a href="/">
+            <a href="https://github.com/eseneose/">
               <img
                 src={GitLogo}
                 alt="Git Logo"
                 className="h-10 w-10 text-yellow_vs hover:cursor-pointer hover:h-12 hover:w-12"
               />
             </a>
-            <a href="/">
+            <a href="https://facebook.com/drealose/">
               <img
-                src={KaggleLogo}
-                alt="Kaggle Logo"
-                className="h-10 w-10 text-yellow_vs hover:cursor-pointer hover:h-12 hover:w-12"
+                src={fbb}
+                alt="Facebook Logo"
+                className="h-9 w-9 9 pt-1 text-yellow_vs hover:cursor-pointer hover:h-12 hover:w-12"
               />
             </a>
             <a href="/">
