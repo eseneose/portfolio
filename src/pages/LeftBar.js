@@ -32,7 +32,7 @@ const LeftBar = (props) => {
           <p>Food Receipe App</p>
         </div>
       </a>
-      <a href="easy-google.vercel.app">
+      <a href="https://easy-google.vercel.app">
         <div className="ml-12 flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] w-60">
           <CodeIcon className="h-5 w-5 mr-1  ml-5 text-yellow_vs" />
           <p>Google clone</p>

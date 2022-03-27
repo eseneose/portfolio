@@ -39,7 +39,7 @@ function Projects() {
                 <span className="text-brown_vs font-mono pl-4 font-semibold">Food recipe</span>
               </a>
 
-              <a href="easy-google.vercel.app" className='flex items-center'>
+              <a href="https://easy-google.vercel.app" className='flex items-center'>
                 <img
                   src={google_clone}
                   alt="google clone app"
