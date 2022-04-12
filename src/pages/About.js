@@ -24,14 +24,14 @@ const About = () => {
       <div>
         <div className="table">
           <IdentificationIcon className="h-5 w-5 mr-4 text-yellow_vs" />{" "}
-          <code className="table-cell text-[#e6f1ff] text-2xl md:text-3xl mt-5 whitespace-nowrap">
+          <code className="table-cell text-[#e6f1ff] text-1xl md:text-3xl mt-5 whitespace-nowrap">
             About Me
           </code>
 
 
           <div className="table-cell border-b border-b-[#e6f1ff] border-opacity-25 w-full">        </div>
         </div>
-        <div className="text-[#a2aabc] text-md md:text-lg mt-5 ">
+        <div className="text-[#a2aabc] text-xs md:text-lg mt-5 ">
           <code>
           Hello! My name is Osagie and I enjoy creating things that live on the internet. My interest in web development started back in 2017 when i was just about rounding up with my first degree in chemical engineering technology when I decided to try building a store locator web app with vanilla JavaScript, which taught me a lot about HTML & CSS! </code>
           <br />
