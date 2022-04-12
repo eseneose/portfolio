@@ -6,7 +6,7 @@ import {
   IdentificationIcon,
 } from "@heroicons/react/solid";
 import { MailIcon, ClipboardListIcon } from "@heroicons/react/outline";
-import Image from 'next/image'
+
 
 
 const fbb = require("../assets/fBB.png");
@@ -25,7 +25,7 @@ const LeftBar = (props) => {
        
       <a href="https://bit.ly/covid_tracker_app">
         <div className="flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a]">
-          <CodeIcon className="h-5 w-5 mr-1   text-yellow_vs" />
+          <CodeIcon className="h-5 w-5 mr-1 text-yellow_vs" />
           <p className="invisible truncate hover:text-clip md:visible">Covid 19 Tracker</p>
         </div>
       </a>
@@ -74,9 +74,9 @@ const LeftBar = (props) => {
 
   return (
     <div className="w-14 text-[#a2aabc] text-lg mt-5 flex flex-col justify-center">
-     <img src={Avatar} className="block px-2 sm:ml-3 pt-5 rounded-full md:hidden " width="120" height="120"/>    
+     <img src={Avatar} className="block px-2 sm:ml-3 pt-5 rounded-full md:hidden" width="120" height="120"/>    
      <div>
-        <div className="hidden  place-items-center w-14 bg-[#655e65] sm:w-20 md:block md:w-40 lg:w-72 "> 
+        <div className="hidden  place-items-center w-14 bg-[#262526] sm:w-20 md:block md:w-40 lg:w-72 "> 
        
           <div
           className="flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] font-bold w-full"
