@@ -3,7 +3,7 @@ import { ClipboardListIcon } from "@heroicons/react/solid";
 
 const Resume = () => {
   return (
-    <div id="Resume" className="w-1/2 mt-64 text-justify ml-auto mr-60">
+    <div id="Resume" className="w-2/2 mt-64 text-justify ml-auto mr-5">
       <div>
         <div className="table">
           <ClipboardListIcon className="h-5 w-5 mr-4 text-yellow_vs" />{" "}
@@ -18,7 +18,7 @@ const Resume = () => {
           <div className="w-1/4">
             <code className="text-yellow_vs">Education</code>
           </div>
-          <div className="w-3/4 pl-40">
+          <div className="w-3/4 pl-20 lg:pl-40">
             <code className="text-blue_vs">Institute of Management and Technology IMT</code>
             <br />
             <code className="italic text-m text-lightblue_vs">
@@ -34,7 +34,7 @@ const Resume = () => {
           <div className="w-1/4">
             <code className="text-yellow_vs">Work</code>
           </div>
-          <div className="w-3/4 pl-40">
+          <div className="w-3/4 pl-20 lg:pl-40">
             <code className="text-blue_vs">Sapin Consolidated International</code>
             <br />
             <code className="italic text-m text-lightblue_vs">
@@ -52,7 +52,7 @@ const Resume = () => {
              
             </code>
           </div>
-          <div className="w-3/4 pl-40 mt-10">
+          <div className="w-3/4 pl-20 lg:pl-40 mt-10">
             <code className="text-blue_vs">EasyITPro </code>
             <br />
             <code className="italic text-m text-lightblue_vs">
@@ -69,7 +69,7 @@ const Resume = () => {
               <br />• Phasellus mattis nunc vel purus maximus.
             </code>
           </div>
-          <div className="w-3/4 pl-40 mt-10">
+          <div className="w-3/4 pl-20 lg:pl-40 mt-10">
             <code className="text-blue_vs">GrowthHacks Digital Solution</code>
             <br />
             <code className="italic text-m text-lightblue_vs">

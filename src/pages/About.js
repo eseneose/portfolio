@@ -13,13 +13,13 @@ const FirebaseLogo = require("../assets/FirebaseLogo.png");
 const MongoDBLogo = require("../assets/MongoDBLogo.png");
 const NodeJSLogo = require("../assets/NodeJSLogo.png");
 const DockerLogo = require("../assets/DockerLogo.png");
-//const Ose = require("../assets/ose.png");
+const Ose = require("../assets/ose.png");
 
 const About = () => {
   return (
     <div
       id="About"
-      className="mx-60 items-center justify-center w-1/2 text-justify"
+      className="mx-20 lg:mx-40 items-center justify-center w-2/2 text-justify"
     >
       <div>
         <div className="table">
@@ -40,7 +40,7 @@ const About = () => {
           <br />
           <br />
           <code>Here are a few technologies I’ve been working with recently:</code>
-          <div className="grid grid-cols-3 gap-2 text-sm mt-5 text-brown_vs">
+          <div className="grid grid-cols-3 gap-2 pt-5 text-sm mt-5 text-brown_vs">
             {/* <div className='flex flex-row col-start-1 mb-3'><code className='text-[#e6f1ff] underline'>Programming Languages</code></div>
             <div className='flex flex-row col-start-2 mb-3'><code className='text-[#e6f1ff] underline'>Libraries</code></div>
             <div className='flex flex-row col-start-3 mb-3'><code className='text-[#e6f1ff] underline'>Frameworks</code></div> */}

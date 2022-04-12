@@ -23,11 +23,11 @@ const Home = () => {
 
   return (
     <>
-      <div id="home" className="App flex">
-        <div className="bg-[#262526] w-72 fixed h-full">
+      <div id="home" className="App flex ">
+        <div className="bg-[#262526] w-14 fixed h-full sm:w-20 md:w-40 lg:w-72 ">
           <LeftBar scroll={scroll} SetScroll={SetScroll} />
         </div>
-        <div className="bg-[#1e1e1e] h-full ml-72 w-full">
+        <div className="bg-[#1e1e1e] h-full ml-10 px-10 w-full min-w-72 sm:ml-20 md:ml-40 lg:ml-72">
           <Header scroll={scroll} SetScroll={SetScroll} />
           <About id="About" />
           <Resume id="Resume" />
