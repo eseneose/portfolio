@@ -19,7 +19,7 @@ const About = () => {
   return (
     <div
       id="About"
-      className="mx-20 lg:mx-40 items-center justify-center w-2/2 text-justify"
+      className="mx-10 lg:mx-40 items-center justify-center w-2/2 text-justify"
     >
       <div>
         <div className="table">
@@ -31,7 +31,7 @@ const About = () => {
 
           <div className="table-cell border-b border-b-[#e6f1ff] border-opacity-25 w-full">        </div>
         </div>
-        <div className="text-[#a2aabc] text-xs md:text-lg mt-5 ">
+        <div className="text-[#a2aabc] text-sm md:text-lg mt-5 ">
           <code>
           Hello! My name is Osagie and I enjoy creating things that live on the internet. My interest in web development started back in 2017 when i was just about rounding up with my first degree in chemical engineering technology when I decided to try building a store locator web app with vanilla JavaScript, which taught me a lot about HTML & CSS! </code>
           <br />

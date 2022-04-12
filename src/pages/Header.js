@@ -2,7 +2,7 @@ import React from "react";
 
 function Header(props) {
   return (
-    <div className="mx-20 lg:mx-60 py-60 items-center justify-center w-1/2 text-justify">
+    <div className="mx-10 lg:mx-60 py-60 items-center justify-center w-1/2 text-justify">
       <div className="flex flex-col">
         <code className="text-lightblue_vs">Hi, my name is</code>
         <code className="text-[#e6f1ff] text-3xl md:text-7xl mt-5">Esene Osagie</code>

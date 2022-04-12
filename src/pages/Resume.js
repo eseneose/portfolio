@@ -13,7 +13,7 @@ const Resume = () => {
           <div className="table-cell border-b border-b-[#e6f1ff] border-opacity-25 w-full"></div>
         </div>
       </div>
-      <div className="text-[#a2aabc] text-xs md:text-lg mt-5">
+      <div className="text-[#a2aabc] text-sm md:text-lg mt-5">
         <div className="flex flex-col">
           <div className="w-1/4">
             <code className="text-yellow_vs">Education</code>
@@ -21,7 +21,7 @@ const Resume = () => {
           <div className="w-3/4 pl-20 lg:pl-40">
             <code className="text-blue_vs">Institute of Management and Technology IMT</code>
             <br />
-            <code className="italic text-m text-lightblue_vs">
+            <code className="italic text-sm text-lightblue_vs">
               Higher National Diploma in Chemical Engineering Technology
             </code>
             <br />
@@ -41,7 +41,7 @@ const Resume = () => {
               Jahi - FCT Abuja, Nigeria{" "}
             </code>
             <br />
-            <code className="text-xs text-brown_vs">• October 2021 - March 2022</code>
+            <code className="text-sm text-brown_vs">• October 2021 - March 2022</code>
             <br />
             <code className="text-m">
               <br />• Designed and developed new websites for each sub company
